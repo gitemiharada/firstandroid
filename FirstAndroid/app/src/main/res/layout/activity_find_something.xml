@@ -28,12 +28,14 @@
 
     <TextView
         android:id="@+id/brands"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="16dp"
-        android:text="@string/brands" />
-
-
-
+        android:layout_width="246dp"
+        android:layout_height="77dp"
+        android:width="2dp"
+        android:height="10dp"
+        android:background="@drawable/text_input_border"
+        android:color="@color/colorPrimaryDark"
+        android:text="@string/brands"
+        android:textAlignment="center" />
 </LinearLayout>
